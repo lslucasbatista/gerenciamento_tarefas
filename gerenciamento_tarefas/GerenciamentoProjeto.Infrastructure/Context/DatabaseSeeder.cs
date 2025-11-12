@@ -36,8 +36,8 @@ namespace GerenciamentoProjeto.Infrastructure.Context
             {
                 List<Cargo> cargos = context.Cargo.ToList();
 
-                context.Usuario.Add(new Usuario { Nome = "Usuário Gerente",Email = "gerente@gmail.com", CargoId = cargos.FirstOrDefault(x => x.Descricao == "Gerente").Id });
-                context.Usuario.Add(new Usuario { Nome = "Usuário Colaborador",Email = "colaborador@gmail.com", CargoId = cargos.FirstOrDefault(x => x.Descricao == "Colaborador").Id });
+                context.Usuario.Add(new Usuario { Nome = "Usuário Gerente", Email = "gerente@gmail.com", CargoId = cargos.FirstOrDefault(x => x.Descricao == "Gerente").Id });
+                context.Usuario.Add(new Usuario { Nome = "Usuário Colaborador", Email = "colaborador@gmail.com", CargoId = cargos.FirstOrDefault(x => x.Descricao == "Colaborador").Id });
 
                 context.SaveChanges();
             }

@@ -1,5 +1,27 @@
 # Desafio Técnico .NET (C#) - Gerenciamento de Tarefas
 
+## Instruções de Gerais
+
+A API ao inicializar pela primeira vez cria os usuários, status, prioridades e cargos
+
+## Prioridade
+{ Descricao = "Baixa", Id = 1 }
+{ Descricao = "Média", Id = 2 }
+{ Descricao = "Alta",  Id = 3 }
+
+## Status
+{ Descricao = "Pendente", Id = 1 }
+{ Descricao = "Em Andamento", Id = 2 }
+{ Descricao = "Concluída", Id = 3 }
+
+## Cargo
+{ Descricao = "Gerente", Id = 1 }
+{ Descricao = "Colaborador", Id = 2 }
+
+## Usuário
+{ Descricao = "Usuário Gerente", Email = "gerente@gmail.com", Id = 1  }
+{ Descricao = "Usuário Colaborador", Email = "gerente@gmail.com", Id = 2 }
+
 ## Instruções de Execução
 
 ### Subir o ambiente
